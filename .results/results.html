@@ -1,0 +1,142 @@
+<html lang="en"><head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>ccbp test reporter</title>
+      <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
+      <script src="js/view.js"></script>
+    </head><body><div id="test-results">{
+  &quot;test_case_results&quot;: [
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_1&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;Page should consist of an HTML main heading element with text content as \&quot;BURN IT OFF\&quot;&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_2&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;Page should consist of an HTML input element with label text as \&quot;Calories to burn\&quot; and type attribute value as \&quot;text\&quot;&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_3&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;Page should consist of an HTML button element with text content as \&quot;Submit\&quot; and type attribute value as \&quot;submit\&quot;&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_4&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the page is opened initially, the HTML input element with the label text as \&quot;Calories to burn\&quot; should have the value as \&quot;0\&quot;&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_5&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When a non-empty value is provided in the HTML input element with the label text as \&quot;Calories to burn\&quot;, then the value provided should be displayed in the HTML input element&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_6&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When invalid calories are provided and the Submit button is clicked, then the page should consist of an HTML paragraph element with text content starting with \&quot;Calories target should not be\&quot;&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_7&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the page is opened, then the browser title should be \&quot;Target: 0\&quot;&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_8&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When a non-empty value is provided in the HTML input element, then the browser title should be updated&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_9&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When valid calories are provided and the Submit button is clicked, then the \&quot;EXERCISES\&quot; view should be displayed and the page should consist of an HTML heading element with text content as the input value provided in the \&quot;CALORIES\&quot; view&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_10&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the calories are submitted, then the page should consist of at least eight HTML list items and the exercises list should be rendered using a unique key as a prop for each exercise item&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_11&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the calories are submitted, then the page should consist of 8 HTML image elements with alt and src as the values of the key \&quot;name\&quot; and \&quot;imageUrl\&quot; from the exerciseList provided&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_12&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the calories are submitted, then the page should consist of 8 HTML paragraph elements with text content as the values of the key \&quot;name\&quot; from the exerciseList provided&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_13&quot;,
+      &quot;evaluation_result&quot;: &quot;INCORRECT&quot;,
+      &quot;title&quot;: &quot;When the calories are submitted, then the page should consist of 8 HTML paragraph elements with text content as the values of the key \&quot;calories\&quot; from the exerciseList provided&quot;,
+      &quot;errorMessages&quot;: [
+        &quot;Unable to find an element with the text: 250 Cal. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m&lt;body&gt;\u001b[39m\n  \u001b[36m&lt;div&gt;\u001b[39m\n    \u001b[36m&lt;div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\&quot;burn-it-off-container\&quot;\u001b[39m\n      \u001b[33mdata-testid\u001b[39m=\u001b[32m\&quot;burnItOff\&quot;\u001b[39m\n    \u001b[36m&gt;\u001b[39m\n      \u001b[36m&lt;h1\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\&quot;burn-it-off-heading\&quot;\u001b[39m\n      \u001b[36m&gt;\u001b[39m\n        \u001b[0mBURN IT OFF\u001b[0m\n      \u001b[36m&lt;/h1&gt;\u001b[39m\n      \u001b[36m&lt;div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercises-container\&quot;\u001b[39m\n      \u001b[36m&gt;\u001b[39m\n        \u001b[36m&lt;div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\&quot;target-container\&quot;\u001b[39m\n        \u001b[36m&gt;\u001b[39m\n          \u001b[36m&lt;div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\&quot;target-sub-container\&quot;\u001b[39m\n          \u001b[36m&gt;\u001b[39m\n            \u001b[36m&lt;p\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\&quot;target-paragraph\&quot;\u001b[39m\n            \u001b[36m&gt;\u001b[39m\n              \u001b[0mTARGET\u001b[0m\n            \u001b[36m&lt;/p&gt;\u001b[39m\n            \u001b[36m&lt;h1\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\&quot;target-heading\&quot;\u001b[39m\n            \u001b[36m&gt;\u001b[39m\n              \u001b[0m250\u001b[0m\n            \u001b[36m&lt;/h1&gt;\u001b[39m\n            \u001b[36m&lt;p\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\&quot;calories-paragraph\&quot;\u001b[39m\n            \u001b[36m&gt;\u001b[39m\n              \u001b[0mCalories\u001b[0m\n            \u001b[36m&lt;/p&gt;\u001b[39m\n          \u001b[36m&lt;/div&gt;\u001b[39m\n        \u001b[36m&lt;/div&gt;\u001b[39m\n        \u001b[36m&lt;div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercises-container\&quot;\u001b[39m\n        \u001b[36m&gt;\u001b[39m\n          \u001b[36m&lt;div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-details-container\&quot;\u001b[39m\n          \u001b[36m&gt;\u001b[39m\n            \u001b[36m&lt;li\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-item\&quot;\u001b[39m\n            \u001b[36m&gt;\u001b[39m\n              \u001b[36m&lt;img\u001b[39m\n                \u001b[33malt\u001b[39m=\u001b[32m\&quot;Barbell Squats\&quot;\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-image\&quot;\u001b[39m\n                \u001b[33msrc\u001b[39m=\u001b[32m\&quot;https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/loading-data/niat_react_js/niat_coding_questions/squats.png\&quot;\u001b[39m\n              \u001b[36m/&gt;\u001b[39m\n              \u001b[36m&lt;div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-details\&quot;\u001b[39m\n              \u001b[36m&gt;\u001b[39m\n                \u001b[36m&lt;p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-name\&quot;\u001b[39m\n                \u001b[36m&gt;\u001b[39m\n                  \u001b[0mBarbell Squats\u001b[0m\n                \u001b[36m&lt;/p&gt;\u001b[39m\n                \u001b[36m&lt;p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-calories\&quot;\u001b[39m\n                \u001b[36m&gt;\u001b[39m\n                  \u001b[0m250\u001b[0m\n                \u001b[36m&lt;/p&gt;\u001b[39m\n              \u001b[36m&lt;/div&gt;\u001b[39m\n              \u001b[36m&lt;button\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-button\&quot;\u001b[39m\n                \u001b[33mdata-testid\u001b[39m=\u001b[32m\&quot;complete\&quot;\u001b[39m\n                \u001b[33mtype\u001b[39m=\u001b[32m\&quot;button\&quot;\u001b[39m\n              \u001b[36m&gt;\u001b[39m\n                \u001b[36m&lt;svg\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise\&quot;\u001b[39m\n                  \u001b[33mcolor\u001b[39m=\u001b[32m\&quot;#cbd5e1\&quot;\u001b[39m\n                  \u001b[33mdata-testid\u001b[39m=\u001b[32m\&quot;check-icon\&quot;\u001b[39m\n                  \u001b[33mfill\u001b[39m=\u001b[32m\&quot;currentColor\&quot;\u001b[39m\n                  \u001b[33mheight\u001b[39m=\u001b[32m\&quot;1em\&quot;\u001b[39m\n                  \u001b[33mstroke\u001b[39m=\u001b[32m\&quot;currentColor\&quot;\u001b[39m\n                  \u001b[33mstroke-width\u001b[39m=\u001b[32m\&quot;0\&quot;\u001b[39m\n                  \u001b[33mstyle\u001b[39m=\u001b[32m\&quot;color: rgb(203, 213, 225);\&quot;\u001b[39m\n                  \u001b[33mviewBox\u001b[39m=\u001b[32m\&quot;0 0 16 16\&quot;\u001b[39m\n                  \u001b[33mwidth\u001b[39m=\u001b[32m\&quot;1em\&quot;\u001b[39m\n                  \u001b[33mxmlns\u001b[39m=\u001b[32m\&quot;http://www.w3.org/2000/svg\&quot;\u001b[39m\n                \u001b[36m&gt;\u001b[39m\n                  \u001b[36m&lt;path\u001b[39m\n                    \u001b[33md\u001b[39m=\u001b[32m\&quot;M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z\&quot;\u001b[39m\n                  \u001b[36m/&gt;\u001b[39m\n                \u001b[36m&lt;/svg&gt;\u001b[39m\n              \u001b[36m&lt;/button&gt;\u001b[39m\n            \u001b[36m&lt;/li&gt;\u001b[39m\n          \u001b[36m&lt;/div&gt;\u001b[39m\n          \u001b[36m&lt;div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-details-container\&quot;\u001b[39m\n          \u001b[36m&gt;\u001b[39m\n            \u001b[36m&lt;li\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-item\&quot;\u001b[39m\n            \u001b[36m&gt;\u001b[39m\n              \u001b[36m&lt;img\u001b[39m\n                \u001b[33malt\u001b[39m=\u001b[32m\&quot;Treadmill\&quot;\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-image\&quot;\u001b[39m\n                \u001b[33msrc\u001b[39m=\u001b[32m\&quot;https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/loading-data/niat_react_js/niat_coding_questions/treadmill.png\&quot;\u001b[39m\n              \u001b[36m/&gt;\u001b[39m\n              \u001b[36m&lt;div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-details\&quot;\u001b[39m\n              \u001b[36m&gt;\u001b[39m\n                \u001b[36m&lt;p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-name\&quot;\u001b[39m\n                \u001b[36m&gt;\u001b[39m\n                  \u001b[0mTreadmill\u001b[0m\n                \u001b[36m&lt;/p&gt;\u001b[39m\n                \u001b[36m&lt;p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-calories\&quot;\u001b[39m\n                \u001b[36m&gt;\u001b[39m\n                  \u001b[0m250\u001b[0m\n                \u001b[36m&lt;/p&gt;\u001b[39m\n              \u001b[36m&lt;/div&gt;\u001b[39m\n              \u001b[36m&lt;button\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-button\&quot;\u001b[39m\n                \u001b[33mdata-testid\u001b[39m=\u001b[32m\&quot;complete\&quot;\u001b[39m\n                \u001b[33mtype\u001b[39m=\u001b[32m\&quot;button\&quot;\u001b[39m\n              \u001b[36m&gt;\u001b[39m\n                \u001b[36m&lt;svg\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise\&quot;\u001b[39m\n                  \u001b[33mcolor\u001b[39m=\u001b[32m\&quot;#cbd5e1\&quot;\u001b[39m\n                  \u001b[33mdata-testid\u001b[39m=\u001b[32m\&quot;check-icon\&quot;\u001b[39m\n                  \u001b[33mfill\u001b[39m=\u001b[32m\&quot;currentColor\&quot;\u001b[39m\n                  \u001b[33mheight\u001b[39m=\u001b[32m\&quot;1em\&quot;\u001b[39m\n                  \u001b[33mstroke\u001b[39m=\u001b[32m\&quot;currentColor\&quot;\u001b[39m\n                  \u001b[33mstroke-width\u001b[39m=\u001b[32m\&quot;0\&quot;\u001b[39m\n                  \u001b[33mstyle\u001b[39m=\u001b[32m\&quot;color: rgb(203, 213, 225);\&quot;\u001b[39m\n                  \u001b[33mviewBox\u001b[39m=\u001b[32m\&quot;0 0 16 16\&quot;\u001b[39m\n                  \u001b[33mwidth\u001b[39m=\u001b[32m\&quot;1em\&quot;\u001b[39m\n                  \u001b[33mxmlns\u001b[39m=\u001b[32m\&quot;http://www.w3.org/2000/svg\&quot;\u001b[39m\n                \u001b[36m&gt;\u001b[39m\n                  \u001b[36m&lt;path\u001b[39m\n                    \u001b[33md\u001b[39m=\u001b[32m\&quot;M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z\&quot;\u001b[39m\n                  \u001b[36m/&gt;\u001b[39m\n                \u001b[36m&lt;/svg&gt;\u001b[39m\n              \u001b[36m&lt;/button&gt;\u001b[39m\n            \u001b[36m&lt;/li&gt;\u001b[39m\n          \u001b[36m&lt;/div&gt;\u001b[39m\n          \u001b[36m&lt;div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-details-container\&quot;\u001b[39m\n          \u001b[36m&gt;\u001b[39m\n            \u001b[36m&lt;li\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-item\&quot;\u001b[39m\n            \u001b[36m&gt;\u001b[39m\n              \u001b[36m&lt;img\u001b[39m\n                \u001b[33malt\u001b[39m=\u001b[32m\&quot;Chest Press\&quot;\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-image\&quot;\u001b[39m\n                \u001b[33msrc\u001b[39m=\u001b[32m\&quot;https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/loading-data/niat_react_js/niat_coding_questions/chest_press.png\&quot;\u001b[39m\n              \u001b[36m/&gt;\u001b[39m\n              \u001b[36m&lt;div\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-details\&quot;\u001b[39m\n              \u001b[36m&gt;\u001b[39m\n                \u001b[36m&lt;p\u001b[39m\n                  \u001b[33mclass\u001b[39m=\u001b[32m\&quot;exercise-name\&quot;\u001b[39m\n                \u001b[36m&gt;\u001b[39m\n                  \u001b[0mChest Press\u001b[0m\n                \u001b[36m&lt;/p&gt;\u001b[39m\n                \u001b[36m&lt;p\u001b[3...&quot;
+      ]
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_14&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the calories are submitted, then the page should consist of 8 HTML button elements with data-testid as \&quot;complete\&quot;&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_15&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the calories are submitted, then the 8 HTML button elements with data-testid as \&quot;complete\&quot; should consist of \&quot;BsCheckCircleFill\&quot; icon from \&quot;react-icons\&quot; with data-testid check-icon and color #cbd5e1&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_16&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the calories are submitted, when the HTML button element with data-testid as \&quot;complete\&quot; is clicked, then the target should be decreased by the number of calories contain in the respective exercise item&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_17&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the calories are submitted, when the HTML button element with data-testid as \&quot;complete\&quot; is clicked and the target is updated, then the browser title should be updated&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_18&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the calories are submitted, when the multiple HTML button elements with data-testid \&quot;complete\&quot; are clicked, then the target should be decreased by the total amount of calories contain by the respective exercise items&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_19&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the calories are submitted, when the multiple HTML button elements with data-testid \&quot;complete\&quot; are clicked and the target is completed, then the \&quot;CONGRATULATIONS\&quot; view should be displayed&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_20&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the calories are submitted, when the exercise item is clicked and the respective exercise item calories are greater than the target, then the target should be considered as completed and the browser title should be \&quot;Target: 0\&quot;&quot;,
+      &quot;errorMessages&quot;: []
+    },
+    {
+      &quot;test_case_id&quot;: &quot;RJSCPCQHB8_TEST_21&quot;,
+      &quot;evaluation_result&quot;: &quot;CORRECT&quot;,
+      &quot;title&quot;: &quot;When the target is completed, then the page should consist of an HTML paragraph element with text content as \&quot;You reached the goal and you have completed all the exercises\&quot;&quot;,
+      &quot;errorMessages&quot;: []
+    }
+  ]
+}</div></body></html>

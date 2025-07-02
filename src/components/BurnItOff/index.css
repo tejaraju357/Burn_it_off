@@ -1,0 +1,270 @@
+.burn-it-off-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5eee3;
+  background-image: url('https://res.cloudinary.com/do4qwwms8/image/upload/v1650601247/burn-it-off-bg_rbzhey.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .burn-it-off-container {
+    padding: 64px 24px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .burn-it-off-container {
+    padding: 64px;
+  }
+}
+
+.burn-it-off-heading {
+  font-family: 'playfair display sc';
+  font-size: 24px;
+  line-height: 1.2;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .burn-it-off-heading {
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 64px;
+  }
+}
+
+.input-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fecc7b;
+  border-radius: 16px;
+  padding: 32px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-form-container {
+    padding: 35px 64px 34px;
+  }
+}
+
+.label {
+  display: flex;
+  align-self: flex-start;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.input {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.4;
+  min-width: 250px;
+  background-color: transparent;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-bottom: 24px;
+  outline: none;
+}
+
+@media screen and (min-width: 360px) {
+  .input {
+    min-width: 288px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .input {
+    min-width: 308px;
+  }
+}
+
+.submit-button {
+  color: #ffffff;
+  background-color: #fe805d;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.3;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
+  outline: none;
+  cursor: pointer;
+}
+
+.error-message {
+  align-self: start;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 10px;
+  line-height: 1.2;
+  max-width: 288px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .error-message {
+    font-size: 12px;
+    line-height: 1.33;
+    max-width: 308px;
+  }
+}
+
+.exercises-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.target-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fecc7b;
+  min-height: 190px;
+  min-width: 90%;
+  border-radius: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .target-container {
+    min-width: 436px;
+  }
+}
+
+.target-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffefd6;
+  height: 126px;
+  width: 126px;
+  border: 10px solid #f9ddb0;
+  border-radius: 50%;
+  padding: 44px 30px;
+}
+
+.target-paragraph {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.target-heading {
+  color: #fe805d;
+  font-family: 'Roboto';
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.calories-paragraph {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.exercises-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  min-width: 100%;
+  min-height: 442px;
+  border-radius: 16px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  list-style-type: none;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .exercises-list-container {
+    min-width: 100%;
+    max-height: 442px;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .exercises-list-container {
+    min-width: 85%;
+  }
+}
+
+.congratulations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  background-color: #ffffff;
+  min-width: 80%;
+  min-height: 248px;
+  border-radius: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .congratulations-container {
+    min-width: 460px;
+    min-height: 250px;
+  }
+}
+
+.congratulations-heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .congratulations-heading {
+    font-size: 32px;
+  }
+}
+
+.congratulations-description {
+  text-align: center;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  max-width: 300px;
+  margin: 0;
+  margin-top: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .congratulations-description {
+    font-size: 20px;
+  }
+}
